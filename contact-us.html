@@ -2,9 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>OpenMRS</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="/css/master.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -34,7 +35,13 @@
 
     <div class="jumbotron">
       <div class="container text-center">
-        <h1 class="display-2">OpenMRS</h1>
+        <h1 class="display-2">Contact Us!</h1>
+        <form class="w-50 m-auto" action="index.html" method="post">
+          <input type="text" class="form-control" placeholder="Name">
+          <input type="email" class="form-control my-3" placeholder="Email">
+          <textarea rows="10" class="form-control mb-3" placeholder="Message"></textarea>
+          <input type="submit" class="btn btn-secondary btn-lg btn-block" value="Submit">
+        </form>
       </div>
     </div>
   </body>
